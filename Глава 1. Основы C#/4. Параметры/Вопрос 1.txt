@@ -1,0 +1,17 @@
+Какой результат работы будет у следующей программы и почему:
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int x;
+        Increment(ref x);
+        Console.WriteLine(x);
+        Console.ReadKey();
+    }
+ 
+    static void Increment(ref int x)
+    {
+        x++;
+    }
+}

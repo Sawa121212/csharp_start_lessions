@@ -1,0 +1,16 @@
+Какой результат работы будет у следующей программы и почему:
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string message = "Hello";
+        Display();
+        Console.ReadKey();
+    }
+ 
+    static void Display()
+    {
+        Console.WriteLine(message);
+    }
+}

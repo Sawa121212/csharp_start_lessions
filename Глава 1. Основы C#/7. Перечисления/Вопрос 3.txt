@@ -1,0 +1,12 @@
+Какое значение имеет константа Sunday в следующем перечислении?
+
+enum Day
+{
+    Monday = 5,
+    Tuesday,
+    Wednesday,
+    Thursday = 14,
+    Friday = Tuesday,
+    Saturday,
+    Sunday
+}

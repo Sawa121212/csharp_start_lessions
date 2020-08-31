@@ -1,0 +1,16 @@
+Что будет выведено на консоль в результате выполнения следующей программы?
+
+enum Season : byte
+{
+    Winter = 254,
+    Spring,
+    Summer,
+    Autumn
+}
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine(Season.Summer);
+    }
+}

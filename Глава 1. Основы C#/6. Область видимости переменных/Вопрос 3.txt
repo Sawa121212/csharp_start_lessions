@@ -1,0 +1,24 @@
+Что будет выведено на консоль при выполнении следующей программы:
+
+class Program
+{
+    int val = 8;
+    static void Main(string[] args)
+    {
+        int val = 10;
+        Doubled(ref val);
+        Console.WriteLine(val);
+        Console.ReadKey();
+    }
+ 
+    static void Doubled(ref int val)
+    {
+        val *= 2;
+    }
+}
+
+Варианты ответов:
+16
+20
+10
+Программа не скомпилируется

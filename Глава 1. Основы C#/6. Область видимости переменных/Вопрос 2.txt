@@ -1,0 +1,23 @@
+Что будет выведено на консоль при выполнении следующей программы:
+
+class Program
+{
+    int x = 8;
+    static void Main(string[] args)
+    {
+        int x = 9;
+ 
+        {
+            x++;
+        }
+ 
+        Console.WriteLine(x);
+        Console.ReadKey();
+    }
+}
+
+Варианты ответов:
+9
+10
+1
+Программа не скомпилируется

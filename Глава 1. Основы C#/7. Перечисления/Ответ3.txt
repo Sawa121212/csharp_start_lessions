@@ -1,0 +1,24 @@
+Ответ
+Константа Sunday равна 8.
+
+using System;
+class HelloWorld
+{
+    enum Day
+    {
+        Monday = 5,	
+        Tuesday,			// 6
+        Wednesday,			// 7
+        Thursday = 14,
+        Friday = Tuesday,	// 6
+        Saturday,			// 7
+        Sunday				// 8
+    }
+    
+  static void Main()
+    {
+        Day op;
+        op = Day.Sunday;
+        Console.WriteLine((int)op); // 3
+    }
+}

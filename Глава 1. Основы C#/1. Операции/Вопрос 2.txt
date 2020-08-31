@@ -1,0 +1,11 @@
+	// Есть следующий код:
+        // int num1 = 4;
+        // int num2 = 5;
+        // int num3 = 15;
+        // int num4 = 10;
+        // int num5 = 5;
+        // int result = 12;
+        //
+        // result += num1* num2 + num3 % num4 / num5;
+        // Используя приоритеты операций, разложите выражение result += num1* num2 + num3 % num4 / num5 по шагам.
+        // int yourResult = ?

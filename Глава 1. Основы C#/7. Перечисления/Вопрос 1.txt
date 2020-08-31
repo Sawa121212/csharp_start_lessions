@@ -1,0 +1,9 @@
+Какое числовое значение имеет константа Season.Summer в следующем перечислении?
+
+enum Season
+{
+    Winter = 250,
+    Spring,
+    Summer,
+    Autumn
+}
